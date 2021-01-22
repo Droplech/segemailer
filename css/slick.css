@@ -82,11 +82,13 @@ body {
 }
 
 .poster-main .poster-prev-btn {
-  left: -134px;
+  left: -26px;
+  width: 25px !important;
   background: url('../img/customers/arrow-left.svg') no-repeat center center;
 }
 
 .poster-main .poster-next-btn {
-  right: -134px;
+  right: -26px;
+  width: 25px !important;
   background: url('../img/customers/arrow-right.svg') no-repeat center center;
 }

@@ -39,3 +39,25 @@ $(document).click(function (e) {
 
 
 $(".example").PicCarousel("init");
+
+$('.slider_customers').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: false,
+    arrow: false
+});
+
+
+
+
+$('.mob_menu_button').click(function(){
+    $('.mob_menu_button').addClass('active')
+    $('.mob_menu_content').slideDown()
+    
+})
+$('.close_btn, .mob_menu_content .content ul li a, .mob_menu_content .content .button .buttons a').click(function(){
+    $('.mob_menu_button').removeClass('active')
+    $('.mob_menu_content').slideUp()
+    
+})
