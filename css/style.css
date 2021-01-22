@@ -1381,10 +1381,15 @@ ul{
     .nav{
         height: auto;
     }
+  
     .header_wrapper,
     .faq{
         background-image: none;
         background-color: #AFDD44;
+    }
+    .header_wrapper{
+        height: auto;
+        padding-bottom: 20px;
     }
     .start .start_content{
         justify-content: space-around;
@@ -1479,9 +1484,34 @@ ul{
     .blog .subtitle{
         font-size: 20px;
     }
+    .header_content .left{
+        width: 100%;
+    }
 }
 
-
+@media screen and (max-width: 375px){
+    .slider_customers .comm_item{
+        width: 337px !important;
+    }
+    .slick-next {
+        right: -5px;
+    }
+    .slick-prev {
+        left: -5px;
+    }
+   
+    .features_content .features_item .text{
+        width: 100%;
+        height: auto;
+    }
+    .blog_content .blog_item{
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .footer_content .left ul{
+        flex-wrap: wrap;
+    }
+}
 
 
 
