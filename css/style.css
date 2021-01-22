@@ -57,11 +57,11 @@ ul{
 .nav .nav_links ul li a{
     font-weight: 500;
     font-size: 17px;
-    color: #000;
-    border-bottom: 2px solid transparent;
+    color: #484848;
+    
 }
 .nav .nav_links ul li a:hover{
-    border-bottom-color: #000;
+    color: #941759;
 }
 .nav .nav_battons{
     display: flex;
@@ -74,7 +74,7 @@ ul{
     border: 2px solid #941759;
     background-color: transparent;
     cursor: pointer;
-    transition: .3s;
+    transition: .5s;
 }
 
 .nav .nav_battons button:hover{
@@ -90,8 +90,23 @@ ul{
     font-weight: 600;
     font-size: 14px;
     color: #941759;
+    font-family: 'Montserrat', sans-serif;
     
 
+}
+
+.nav .nav_battons .log_in{
+    background-color: #941759;
+    transition: .5s;
+
+}
+.nav .nav_battons .log_in p{
+    color: #fff;
+    
+}
+.nav .nav_battons .log_in:hover{
+    background: #691341;
+    border-color: #691341;
 }
 .header_content{
     display: flex;
@@ -136,7 +151,7 @@ ul{
     font-size: 14px;
     color: #941759;
     padding: 15px 0;
-    transition: .3s;
+    transition: .5s;
 }
 .header_content .left .left_buttons a:first-child{
     margin-right: 25px;
@@ -146,9 +161,20 @@ ul{
     color: #fff;
 }
 
+.header_content .left .left_buttons .plan{
+    background-color:  #941759;
+    color: #fff;
+}
+.header_content .left .left_buttons .plan:hover{
+    background: #691341;
+    border-color: #691341;
+}
+
+
+
 .header_content .right{
     width: 730px;
-    height: 440px;
+    height: 447px;
     position: absolute;
     right: -20px;
     top: -45px;
@@ -157,13 +183,14 @@ ul{
 .header_content .right img{
     width: 100%;
     height: 100%;
+    position: absolute;
 }
 
-.header_content .right .stars{
+/* .header_content .right .stars{
     position: absolute;
     right: -25px;
     top: 40px;
-}
+} */
 
 
 .marketplaces{
@@ -175,6 +202,7 @@ ul{
     font-size: 38px;
     margin-bottom: 44px;
     letter-spacing: 2.6px;
+    color: #3B3D42;
 
 }
 .marketplaces .countries{
@@ -199,6 +227,7 @@ ul{
     font-size: 38px;
     font-family: 'Rockwell';
     text-align: center;
+    color: #3B3D42;
 }
 .main_solutions .content_item{
     display: flex;
@@ -252,6 +281,7 @@ ul{
     font-size: 38px;
     font-family: 'Rockwell';
     margin-bottom: 15px;
+    color: #3B3D42;
 }
 
 .automate .automate_content .right{
@@ -322,10 +352,11 @@ ul{
     border: 2px solid #941759;
     font-weight: 600;
     font-size: 14px;
-    transition: .3s;
+    transition: .5s;
     color: #941759;
     text-align: center;
     padding: 15px 0;
+    
 }
 
 .automate .automate_content .right  .buttons a:hover{
@@ -333,7 +364,14 @@ ul{
     color: #fff;
 }
 
-
+.automate .automate_content .right .buttons .try{
+    background: #941759;
+    color: #fff;
+}
+.automate .automate_content .right .buttons .try:hover{
+    background: #691341;
+    border-color: #691341;
+}
 
 
 .features{
@@ -345,6 +383,7 @@ ul{
     font-size: 38px;
     text-align: center;
     margin-bottom: 12px;
+    color: #3B3D42;
 }
 
 .features_content p{
@@ -352,6 +391,7 @@ ul{
     font-weight: normal;
     font-size: 29px;
     text-align: center;
+    color: #3B3D42;
 }
 .features_content .features_items{
     display: flex;
@@ -377,6 +417,9 @@ ul{
     border-radius: 4px;
     padding: 18px 24px;
     text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .features_content .features_item .text h3{
     text-align: left;
@@ -406,6 +449,97 @@ ul{
     padding-top: 20px;
 }
 
+
+
+
+
+
+.customers_say{
+    margin-top: 150px;
+}
+.customers_say .title{
+    font-family: 'Rockwell';
+    font-weight: bold;
+    font-size: 38px;
+    color: #3B3D42;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.customers_contant{
+    width: 83%;
+    height: 270px;
+    margin: 0 auto;
+    background-color: #AFDD44;
+    border-radius: 10px;
+    position: relative;
+}
+.customers_contant .poster-main{
+    position: absolute;
+    top: -14px;
+    left: 27px;
+}
+.customers_contant ul li{
+    background-color: #fff;
+    box-shadow: 0px 0px 30px rgba(71, 73, 78, 0.15);
+}
+.customers_contant ul li .comm_item{
+    background-color: #fff;
+    width: 87% ;
+    height: 80%;
+    padding: 34px 10px 28px 5px;
+    display: flex;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.customers_contant ul li .comm_item .img{
+    margin-right: 19px;
+}
+.customers_contant ul li .comm_item .img img{
+    width: 49px;
+    height: 72px;
+}
+.customers_contant ul li .comm_item .text p{
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 155.56%;
+    color: #3B3D42;
+}
+
+.customers_contant ul li .comm_item .text .name{
+    font-family: 'Rockwell';
+    font-weight: bold;
+    font-size: 12px;
+    color: #3B3D42;
+    text-align: right;
+    margin-top: 20px;
+}
+
+
+.customers_contant ul li .comm_item .text .stars{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .flexible{
     margin-top: 150px;
 }
@@ -415,6 +549,8 @@ ul{
     font-weight: bold;
     font-size: 38px;
     text-align: center;
+    color: #3B3D42;
+    letter-spacing: 1px;
 }
 
 
@@ -435,8 +571,15 @@ ul{
     border-radius: 4px;
     padding: 58px 24px;
     position: relative;
+    
 }
-
+.flexible .flexible_content .plan_item .subtitle{
+    font-weight: 300;
+    font-size: 13px;
+    color: #3B3D42;
+    margin-top: 8px;
+    
+}
 
 .select {
     position: relative;
@@ -448,7 +591,8 @@ ul{
 }
 
 .select__head {
-    font-size: 14px;
+    font-weight: 300;
+    font-size: 13px;
     line-height: 18px;
     color: rgba(66, 67, 72, 0.8);
     cursor: pointer;
@@ -458,7 +602,7 @@ ul{
 .select__head::after {
     width: 10px;
     height: 6px;
-    background: #FFF url("../img/flexible/arrow.png") no-repeat center / cover;
+    background: #FFF url("../img/flexible/arrow.svg") no-repeat center / cover;
     position: absolute;
     left: 20px;
     bottom: 50%;
@@ -575,7 +719,9 @@ ul{
 .flexible .flexible_content .plan_item:nth-child(4) img{
     margin: 44px auto 44px auto;
 }
-
+.flexible .flexible_content .plan_item:nth-child(4) a{
+    margin-top: 81px;
+}
 
 .flexible .flexible_content .plan_item .price{
     font-weight: 500;
@@ -601,6 +747,7 @@ ul{
     text-align: center;
     padding: 15px 0;
     margin: 30px auto 0 auto;
+    transition: .5s;
 }
 
 .flexible .flexible_content .plan_item a:hover{
@@ -615,6 +762,7 @@ ul{
     background-image: url('../img/faq/bg.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    
 }
 
 .faq .title{
@@ -658,6 +806,7 @@ ul{
     font-family: 'Rockwell';
     font-weight: bold;
     font-size: 16px;
+    color: #3B3D42;
 }
 .faq_content .description_item .item_subtitle{
     margin-top: 11px;
@@ -777,6 +926,7 @@ ul{
 
 .start_content .start_item:last-child p{
     padding-top: 4px;
+    color: #3B3D42;
 }
 
 
@@ -793,7 +943,7 @@ ul{
     text-align: center;
     padding: 15px 0;
     margin: 85px auto 0 auto;
-    transition: .3s;
+    transition: .5s;
 }
 .start .button:hover{
     
@@ -832,13 +982,14 @@ ul{
     
 }
 .footer_content .left ul li a:hover{
-    text-decoration: underline;
+    color: #941759;
 }
 
 .footer_content .left ul li:nth-child(1) a::after,
 .footer_content .left ul li:nth-child(2) a::after{
     content: "|";
     margin: 0 10px;
+    color: #AFDD44 !important;
 }
 
 

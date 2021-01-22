@@ -36,3 +36,6 @@ $(document).click(function (e) {
         $('.select__list').fadeOut();
     }
 });
+
+
+$(".example").PicCarousel("init");
