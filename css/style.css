@@ -493,9 +493,9 @@ ul{
     background-color: #fff;
     width: 77% ;
     height: 55%;
-    
     display: flex;
     position: absolute;
+    justify-content: space-evenly;
     margin: auto;
     top: 0;
     left: 0;
