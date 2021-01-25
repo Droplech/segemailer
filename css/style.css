@@ -509,6 +509,11 @@ ul{
     width: 49px;
     height: 72px;
 }
+.customers_contant  .comm_item .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .customers_contant  .comm_item .text p{
     font-weight: normal;
     font-size: 10px;
