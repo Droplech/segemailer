@@ -3,7 +3,7 @@ html{
 }
 body{
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     background-color: #F2FBDD;
     
 }
@@ -137,6 +137,7 @@ ul{
     font-size: 16px;
     margin: 30px 0;
     line-height: 25px;
+    font-weight: 400;
 }
 
 .header_content .left .left_buttons{
