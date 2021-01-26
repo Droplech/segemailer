@@ -138,6 +138,7 @@ ul{
     margin: 30px 0;
     line-height: 25px;
     font-weight: 400;
+    color: #3B3D42;
 }
 
 .header_content .left .left_buttons{
@@ -260,16 +261,17 @@ ul{
 }
 .main_solutions .content_item .item_text{
     width: 291px;
-    height: 136px;
+    height: auto;
     background-color: #fff;
     box-shadow: 0px 0px 30px rgba(71, 73, 78, 0.15);
     border-radius: 4px;
-    padding: 18px 50px 16px 24px;
+    padding: 18px 65px 16px 24px;
 }
 .main_solutions .content_item .item_text p{
     font-family: 'Rockwell';
     font-weight: normal;
     font-size: 25px;
+    color: #3B3D42;
 }
 
 .automate{
@@ -311,19 +313,20 @@ ul{
     font-weight: normal;
     font-size: 16px;
     color: #3B3D42;
+    line-height: 150%;
 }
 
 .automate .automate_content .right .automate_list{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 70%;
+    width: 72%;
     margin-top: 32px;
 }
 
 .automate .automate_content .right .automate_list .automate_list_item{
     display: flex;
-    width: 200px;
+    width: 210px;
    
 }
 .automate .automate_content .right .automate_list .automate_list_item .img{
@@ -1298,11 +1301,101 @@ ul{
     .header_content .right{
         width: 532px;
     }
+    .nav{
+        flex-wrap: wrap;
+    }
+    .marketplaces .countries{
+        flex-wrap: wrap;
+    }
+
+    .start .start_content{
+        width: 100%;
+    }
 }
 
+@media screen and (max-width: 839px){
+    .example{
+        display: none;
+    }
+    .slider_customers{
+        display: block;
+        display: flex;
+        width: 364px;
+        margin: 0 auto;
+    }
+    .slider_customers .comm_item{
+        display: flex !important;
+        padding: 34px 10px 28px 8px;
+    }
+    .customers_contant{
+        padding-top: 22px;
+    }
+    .customers_say .container{
+        padding: 0 20px;
+    }
+    .customers_contant{
+        width: 53%;
+    }
+    .slick-next:before{
+        content: "";
+        width: 12px;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        transform: rotate(45deg);
+        opacity: 1;
+        top: 5px;
+        right: 3px;
+        border-radius: 5px;
 
+    }
+  
+    .slick-next::after{
+        content: "";
+        width: 12px;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        transform: rotate(-45deg);
+        top: 12px;
+        right: 3px;
+        border-radius: 5px;
+    }
+    .slick-prev:before{
+        content: "";
+        width: 12px;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        transform: rotate(-45deg);
+        opacity: 1;
+        top: 5px;
+        left: 3px;
+    }
+    .slick-prev::after{
+        content: "";
+        width: 12px;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        transform: rotate(45deg);
+        opacity: 1;
+        top: 12px;
+        left: 3px;
+    }
+    .faq_content{
+        justify-content: center;
+    }
+    .flexible .flexible_content{
+        justify-content: space-around;
+    }
+    .blog_content{
+        width: 100%;
+    }
+    
+}
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 780px){
     .example{
         display: none;
     }
@@ -1387,6 +1480,7 @@ ul{
     }
     .blog_content{
         justify-content: center;
+        width: 80%;
     }
     .header_content .right{
         display: none;
@@ -1455,6 +1549,38 @@ ul{
     }
 }
 
+@media screen and (max-width: 500px){
+    .customers_contant{
+        width: 100%;
+    }
+    .automate .automate_content .left{
+        width: 100%;
+    }
+    .automate .automate_content .left img{
+        width: 100%;
+    }
+    .automate .automate_content .right{
+        height: auto;
+    }
+    .main_solutions .content_item .item_img img,
+    .main_solutions .content_item .item_text,
+    .faq_content .description_item,
+    .automate .automate_content .right{
+        width: 100%;
+    }
+    .main_solutions .content_item .item_text{
+        padding: 18px 0px 16px 24px;
+    }
+    .main_solutions .content_item .item_text p{
+        font-size: 20px;
+    }
+    .mob_menu{
+        display: block;
+    }
+    .nav .nav_links, .nav .nav_battons{
+        display: none;
+    }
+}
 @media screen and (max-width: 420px){
     .main_solutions .content_item{
         width: 100%;
