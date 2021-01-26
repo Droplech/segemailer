@@ -1580,6 +1580,15 @@ ul{
     .nav .nav_links, .nav .nav_battons{
         display: none;
     }
+    .marketplaces h3,
+    .main_solutions h3,
+    .automate .automate_content .left h3,
+    .automate .automate_content .right h3,
+    .features_content h3,.customers_say .title,
+    .flexible .title h3, .faq .title,.blog .title,
+    .start .title{
+        font-size: 28px;
+    }
 }
 @media screen and (max-width: 420px){
     .main_solutions .content_item{
