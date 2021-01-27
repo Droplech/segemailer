@@ -1298,7 +1298,7 @@ ul{
         padding-bottom: 100px;
     }
     .header_content .left{
-        width: 460px;
+        width:387px;
     }
     .header_content .right{
         width: 480px;
@@ -1314,7 +1314,75 @@ ul{
         width: 100%;
     }
 }
+@media screen and (max-width: 1000px){
+    .header_content .left{
+        width:387px;
+    }
+    .example{
+        display: none;
+    }
+    .slider_customers{
+        display: block;
+        display: flex;
+        width: 364px;
+        margin: 0 auto;
+    }
+    .slick-next:before{
+        content: "";
+        width: 12px;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        transform: rotate(45deg);
+        opacity: 1;
+        top: 5px;
+        right: 3px;
+        border-radius: 5px;
 
+    }
+  
+    .slick-next::after{
+        content: "";
+        width: 12px;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        transform: rotate(-45deg);
+        top: 12px;
+        right: 3px;
+        border-radius: 5px;
+    }
+    .slick-prev:before{
+        content: "";
+        width: 12px;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        transform: rotate(-45deg);
+        opacity: 1;
+        top: 5px;
+        left: 3px;
+    }
+    .slick-prev::after{
+        content: "";
+        width: 12px;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        transform: rotate(45deg);
+        opacity: 1;
+        top: 12px;
+        left: 3px;
+    }
+    .customers_contant {
+        width: 47%;
+        padding-top: 20px;
+    }
+    .slider_customers .comm_item {
+        display: flex !important;
+        padding: 34px 10px 28px 8px;
+    }
+}
 @media screen and (max-width: 900px){
     .example{
         display: none;
