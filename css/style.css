@@ -292,7 +292,7 @@ ul{
 
 .automate .automate_content .right{
     width: 818px;
-    height: 536px;
+    height: auto;
     background-color: #fff;
     box-shadow: 0px 0px 30px rgba(71, 73, 78, 0.15);
     border-radius: 8px 0px 0px 8px;
