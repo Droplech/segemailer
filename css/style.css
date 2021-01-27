@@ -1218,7 +1218,7 @@ ul{
     }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1060px){
     .faq{
         height: auto;
         padding-bottom: 100px;
